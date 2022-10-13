@@ -8,7 +8,8 @@ function Inner() {
   return (
     <div>
       <h1>HOME</h1>
-      <AppMenu toggleTheme={useCallback(toggleTheme,[])} />
+      {/*<AppMenu toggleTheme={useCallback(toggleTheme,[])} />*/}
+      <AppMenu toggleTheme={toggleTheme} />
       <h2>darkTheme: {darkTheme === true ? "true" : "false"}</h2>
     </div>
   );
